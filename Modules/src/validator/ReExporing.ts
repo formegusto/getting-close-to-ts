@@ -1,1 +1,1 @@
-export { ZipCodeValidator as RegExpBasedZipCodeValidator } from "./ZipCodeValidator";
+// export { ZipCodeValidator as RegExpBasedZipCodeValidator } from "./ZipCodeValidator";

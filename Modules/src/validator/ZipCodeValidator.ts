@@ -1,6 +1,7 @@
 import { StringValidator } from "./StringValidator";
 
-export const numberRegExp = new RegExp("/^[0-9]+$/");
+// export const numberRegExp = new RegExp("/^[0-9]+$/");
+const numberRegExp = new RegExp("/^[0-9]+$/");
 
 class ZipCodeValidator implements StringValidator {
   isAcceptable(s: string): boolean {
@@ -10,3 +11,4 @@ class ZipCodeValidator implements StringValidator {
 
 export { ZipCodeValidator };
 export { ZipCodeValidator as mainValidator };
+// export = ZipCodeValidator;

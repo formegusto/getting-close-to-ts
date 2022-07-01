@@ -1,2 +1,2 @@
 export * from "./StringValidator";
-export * from "./ZipCodeValidator";
+// export * as ZipValid from "./ZipCodeValidator";s
