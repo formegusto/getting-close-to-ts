@@ -5,11 +5,9 @@ class KMeans {
   datas?: number[][];
   clusters?: number[][];
 
-  setDatas!: () => void;
   setInit!: () => void;
 }
 
-KMeans.prototype.setDatas = settings.setDatas;
 KMeans.prototype.setInit = settings.setInit;
 
 export default KMeans;
