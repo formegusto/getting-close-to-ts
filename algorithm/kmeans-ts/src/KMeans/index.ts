@@ -1,24 +1,15 @@
-class KMeans implements Iterable<number> {
-  private _numbers = [1, 2, 3, 3, 4, 5];
-  constructor() {}
+import * as settings from "./setting";
 
-  run() {
-    for (const num of this) {
-      console.log(num);
-    }
-  }
+class KMeans {
+  K?: number;
+  datas?: number[][];
+  clusters?: number[][];
 
-  [Symbol.iterator]() {
-    let nextIndex = 0;
-    return {
-      next: () => {
-        return {
-          value: this._numbers[nextIndex++],
-          done: nextIndex > this._numbers.length,
-        };
-      },
-    };
-  }
+  setDatas!: () => void;
+  setInit!: () => void;
 }
+
+KMeans.prototype.setDatas = settings.setDatas;
+KMeans.prototype.setInit = settings.setInit;
 
 export default KMeans;
