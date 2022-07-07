@@ -1,1 +1,1 @@
-# 내가 알고싶은 것들만 골라넣는 Typescript Collector
+## Typescript, 너가 참 까탈스러워서 준비했어. "너 알아가기"
